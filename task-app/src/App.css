@@ -1,0 +1,84 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form styles */
+.task-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Task list styles */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item strong {
+  color: #2c3e50;
+}
